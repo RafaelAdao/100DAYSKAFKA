@@ -12,6 +12,12 @@ Link to the challenge: [100 Days Of Kafka](https://developer.confluent.io/100-da
 
 **Thoughts**: It's not my first contact with Kafka, but I will commit to this challenge to learn more about it.
 
+### Day 1: January 23, 2024
+
+**Today's Progress**: I watched the video of the concept of a Event on Kafka, on this [link](https://developer.confluent.io/courses/apache-kafka/events).
+
+**Thoughts**: The video is just an introduction to the concept of an event on Kafka. Each event is a key/value object, stored in a topic partition. The key is used to identify the partition, and the value is the data itself. The events are immutable, and the order is guaranteed within a partition. The value can be any type of data, JSON, JSON Schema, Avro, etc. The events are stored in a log, and the consumer can read the events from the beginning, or from a specific offset.
+
 ### Day X: Y Z, 2024
 
 **Today's Progress**: 

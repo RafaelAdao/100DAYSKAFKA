@@ -18,6 +18,12 @@ Link to the challenge: [100 Days Of Kafka](https://developer.confluent.io/100-da
 
 **Thoughts**: The video is just an introduction to the concept of an event on Kafka. Each event is a key/value object, stored in a topic partition. The key is used to identify the partition, and the value is the data itself. The events are immutable, and the order is guaranteed within a partition. The value can be any type of data, JSON, JSON Schema, Avro, etc. The events are stored in a log, and the consumer can read the events from the beginning, or from a specific offset.
 
+### Day 2: January 24, 2024
+
+**Today's Progress**: Kafka topics are ordered, immutable, append-only logs. Topics can be created using the command line or the Kafka API. We can also list, describe, and delete topics. Topics can be configured with a retention period, a number of partitions, and a replication factor.
+
+**Thoughts**: Kafka topics are the core of the Kafka architecture. They are the place where all events are stored. Is not like a traditional queue, where messages are deleted after being consumed. Kafka topics are append-only logs, which means that messages are never deleted.
+
 ### Day X: Y Z, 2024
 
 **Today's Progress**: 
